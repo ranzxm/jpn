@@ -1,0 +1,358 @@
+:root,
+[data-theme="dark"] {
+  --bg-page: #09090b;
+  --bg-surface: #18181b;
+  --bg-elevated: #111113;
+  --border-subtle: #27272a;
+  --border-strong: #3f3f46;
+  --text-primary: #f4f4f5;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+  --btn-primary-bg: #f4f4f5;
+  --btn-primary-text: #09090b;
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --bg-page: #ffffff;
+  --bg-surface: #fafafa;
+  --bg-elevated: #f4f4f5;
+  --border-subtle: #e4e4e7;
+  --border-strong: #d4d4d8;
+  --text-primary: #18181b;
+  --text-secondary: #71717a;
+  --text-muted: #a1a1aa;
+  --btn-primary-bg: #18181b;
+  --btn-primary-text: #ffffff;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.page {
+  position: relative;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  background: var(--bg-page);
+  overflow: hidden;
+}
+
+.ambient-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+}
+
+.column {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 640px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-page);
+  border-left: 1px solid var(--border-subtle);
+  border-right: 1px solid var(--border-subtle);
+  overflow-x: hidden;
+  transition: background-color 180ms ease;
+}
+
+.header {
+  height: 58px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--border-subtle);
+  flex-shrink: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.segmented {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+}
+
+.seg-btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--text-secondary);
+  width: 28px;
+  height: 26px;
+  padding: 0;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+
+.seg-glyph {
+  font-family: "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.seg-btn:hover {
+  color: var(--text-primary);
+}
+
+.seg-btn.is-active {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+}
+
+.theme-btn {
+  appearance: none;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-secondary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 140ms ease, color 140ms ease, background-color 140ms ease;
+}
+
+.theme-btn:hover {
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+.seg-btn:focus-visible,
+.theme-btn:focus-visible,
+.card-wrap:focus-visible {
+  outline: 2px solid var(--border-strong);
+  outline-offset: 2px;
+}
+
+.stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 40px;
+}
+
+.card-wrap {
+  width: 100%;
+  height: 360px;
+  perspective: 1200px;
+  cursor: grab;
+  user-select: none;
+  touch-action: pan-y;
+  border-radius: 16px;
+  transition:
+    transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 200ms ease;
+  animation: card-enter 200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.card-wrap.is-dragging {
+  cursor: grabbing;
+  transition: none;
+}
+
+.card-wrap.is-exiting {
+  transition:
+    transform 180ms cubic-bezier(0.4, 0, 1, 1),
+    opacity 160ms ease;
+}
+
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 340ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.card-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 16px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 180ms ease, background-color 180ms ease;
+}
+
+.card-wrap:hover .card-front {
+  border-color: var(--border-strong);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  border-color: var(--border-strong);
+}
+
+.card-glyph {
+  font-family: "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--text-primary);
+}
+
+.card-glyph.is-combo {
+  font-size: 104px;
+}
+
+.card-answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-romaji {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+
+.card-ref {
+  font-family: "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .ambient-bg {
+    display: none;
+  }
+
+  .column {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .header {
+    height: 54px;
+    padding: 8px 16px;
+  }
+
+  .controls {
+    gap: 6px;
+  }
+
+  .segmented {
+    padding: 2px;
+  }
+
+  .seg-btn {
+    width: 26px;
+    height: 24px;
+  }
+
+  .theme-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .stage {
+    padding: 24px 16px;
+  }
+
+  .card-wrap {
+    height: 380px;
+  }
+
+  .card-glyph {
+    font-size: 116px;
+  }
+
+  .card-glyph.is-combo {
+    font-size: 88px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-wrap,
+  .card-inner,
+  .column,
+  body {
+    transition: none;
+    animation: none;
+  }
+}
