@@ -2,6 +2,8 @@
 
 Ultra-minimalist Japanese **Hiragana** and **Katakana** flashcard web app built with React, TypeScript, Vite, and Bun.
 
+![Learning Japanese.](public/og.png)
+
 ## Features
 
 - **Complete Kana Set (208 cards)** — 104 Hiragana + 104 Katakana:
@@ -42,6 +44,8 @@ bun test         # Run unit tests
 ```text
 .
 ├── design/                 # FigCraft design source & preview renders
+├── public/
+│   └── og.png              # Social / Open Graph thumbnail (1200×630)
 ├── src/
 │   ├── components/
 │   │   ├── AmbientTapes.tsx  # Canvas ambient kana-tape background
