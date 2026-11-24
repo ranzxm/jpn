@@ -2,6 +2,8 @@
 
 Ultra-minimalist Japanese **Hiragana** and **Katakana** flashcard web app built with React, TypeScript, Vite, and Bun.
 
+**Live:** https://ranzxm.github.io/jpn/
+
 ![Learning Japanese.](public/og.png)
 
 ## Features
