@@ -4,7 +4,7 @@ Ultra-minimalist Japanese **Hiragana** and **Katakana** flashcard web app built 
 
 **Live:** https://ranzxm.github.io/jpn/
 
-![Learning Japanese.](public/og.png)
+![Learning Japanese.](public/og-dark.png)
 
 ## Features
 
@@ -47,7 +47,8 @@ bun test         # Run unit tests
 .
 ├── design/                 # FigCraft design source & preview renders
 ├── public/
-│   └── og.png              # Social / Open Graph thumbnail (1200×630)
+│   ├── og-dark.png         # Social / Open Graph thumbnail — Dark (1200×630)
+│   └── og-light.png        # Social / Open Graph thumbnail — Light (1200×630)
 ├── src/
 │   ├── components/
 │   │   ├── AmbientTapes.tsx  # Canvas ambient kana-tape background
