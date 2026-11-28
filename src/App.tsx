@@ -1,19 +1,24 @@
 import { useCallback, useEffect, useState } from "react";
 import { AmbientTapes } from "./components/AmbientTapes";
-import { Flashcard } from "./components/Flashcard";
-import { createShuffledDeck, type KanaCard, type ScriptFilter } from "./data/kana";
+import { ChapterPicker } from "./components/ChapterPicker";
+import { Flashcard, type DeckCard } from "./components/Flashcard";
+import { createShuffledDeck, type ScriptFilter } from "./data/kana";
+import { createVocabDeck, VOCAB_CHAPTERS } from "./data/vocab";
 
 type Theme = "dark" | "light";
+type DeckFilter = ScriptFilter | "vocab";
 
-const FILTERS: ReadonlyArray<{ id: ScriptFilter; label: string }> = [
+const FILTERS: ReadonlyArray<{ id: DeckFilter; label: string }> = [
   { id: "hiragana", label: "Hiragana" },
   { id: "katakana", label: "Katakana" },
-  { id: "all", label: "Semua" },
+  { id: "all", label: "Semua Kana" },
+  { id: "vocab", label: "Kosakata" },
 ];
 
-function FilterIcon({ id }: { id: ScriptFilter }) {
+function FilterIcon({ id }: { id: DeckFilter }) {
   if (id === "hiragana") return <span className="seg-glyph" lang="ja" aria-hidden="true">あ</span>;
   if (id === "katakana") return <span className="seg-glyph" lang="ja" aria-hidden="true">ア</span>;
+  if (id === "vocab") return <span className="seg-glyph" lang="ja" aria-hidden="true">語</span>;
   return (
     <svg viewBox="0 0 16 16" width="13" height="13" fill="none" aria-hidden="true">
       <rect x="2.25" y="2.25" width="4.5" height="4.5" rx="1" stroke="currentColor" strokeWidth="1.5" />
@@ -24,10 +29,21 @@ function FilterIcon({ id }: { id: ScriptFilter }) {
   );
 }
 
+function buildDeck(
+  filter: DeckFilter,
+  chapters: readonly number[],
+  avoidFirstId?: string
+): DeckCard[] {
+  return filter === "vocab"
+    ? createVocabDeck(chapters, avoidFirstId)
+    : createShuffledDeck(filter, avoidFirstId);
+}
+
 export function App() {
   const [theme, setTheme] = useState<Theme>("dark");
-  const [filter, setFilter] = useState<ScriptFilter>("hiragana");
-  const [deckState, setDeckState] = useState<{ cards: KanaCard[]; index: number }>(() => ({
+  const [filter, setFilter] = useState<DeckFilter>("hiragana");
+  const [selectedChapters, setSelectedChapters] = useState<number[]>([]);
+  const [deckState, setDeckState] = useState<{ cards: DeckCard[]; index: number }>(() => ({
     cards: createShuffledDeck("hiragana"),
     index: 0,
   }));
@@ -36,10 +52,15 @@ export function App() {
     document.documentElement.dataset.theme = theme;
   }, [theme]);
 
-  const handleFilterChange = (next: ScriptFilter) => {
+  const handleFilterChange = (next: DeckFilter) => {
     if (next === filter) return;
     setFilter(next);
-    setDeckState({ cards: createShuffledDeck(next), index: 0 });
+    setDeckState({ cards: buildDeck(next, selectedChapters), index: 0 });
+  };
+
+  const handleChaptersChange = (nextChapters: number[]) => {
+    setSelectedChapters(nextChapters);
+    setDeckState({ cards: createVocabDeck(nextChapters), index: 0 });
   };
 
   const handleNext = useCallback(() => {
@@ -48,9 +69,9 @@ export function App() {
         return { ...prev, index: prev.index + 1 };
       }
       const lastId = prev.cards[prev.index]?.id;
-      return { cards: createShuffledDeck(filter, lastId), index: 0 };
+      return { cards: buildDeck(filter, selectedChapters, lastId), index: 0 };
     });
-  }, [filter]);
+  }, [filter, selectedChapters]);
 
   const { cards, index } = deckState;
   const current = cards[index];
@@ -64,7 +85,7 @@ export function App() {
           <h1 className="title">Learning Japanese.</h1>
 
           <div className="controls">
-            <div className="segmented" role="group" aria-label="Pilih huruf">
+            <div className="segmented" role="group" aria-label="Pilih mode belajar">
               {FILTERS.map((f) => {
                 const active = f.id === filter;
                 return (
@@ -113,8 +134,17 @@ export function App() {
           </div>
         </header>
 
-        <main className="stage">
-          <Flashcard card={current} onNext={handleNext} />
+        <main className={`stage${filter === "vocab" ? " has-picker" : ""}`}>
+          <div className="stage-box">
+            {filter === "vocab" && (
+              <ChapterPicker
+                chapters={VOCAB_CHAPTERS}
+                selected={selectedChapters}
+                onChange={handleChaptersChange}
+              />
+            )}
+            <Flashcard card={current} onNext={handleNext} />
+          </div>
         </main>
       </div>
     </div>

@@ -1,0 +1,4751 @@
+[
+  {
+    "bab": 1,
+    "display": "わたし",
+    "kana": "わたし",
+    "romaji": "watashi",
+    "arti": {
+      "id": "saya"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "あなた",
+    "kana": "あなた",
+    "romaji": "anata",
+    "arti": {
+      "id": "Anda"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "あの {人|ひと}（あの {方|かた}）",
+    "kana": "あの ひと（あの かた）",
+    "romaji": "ano hito (ano kata)",
+    "arti": {
+      "id": "orang itu, beliau"
+    },
+    "catatan": {
+      "id": "あの かた adalah bentuk sopan dari あの ひと"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "～さん",
+    "kana": "～さん",
+    "romaji": "~san",
+    "arti": {
+      "id": "Sdr. ～, Bapak ～, Ibu ～"
+    },
+    "catatan": {
+      "id": "akhiran kesopanan di belakang nama orang"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "～ちゃん",
+    "kana": "～ちゃん",
+    "romaji": "~chan",
+    "arti": {
+      "id": "akhiran panggilan anak"
+    },
+    "catatan": {
+      "id": "dipakai untuk anak laki-laki/perempuan sebagai pengganti ～さん"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "～{人|じん}",
+    "kana": "～じん",
+    "romaji": "~jin",
+    "arti": {
+      "id": "orang ～"
+    },
+    "catatan": {
+      "id": "akhiran kewarganegaraan, contoh: アメリカじん (orang Amerika Serikat)"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{先生|せんせい}",
+    "kana": "せんせい",
+    "romaji": "sensei",
+    "arti": {
+      "id": "guru, dosen"
+    },
+    "catatan": {
+      "id": "tidak dipakai jika menyebutkan pekerjaan sendiri"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{教師|きょうし}",
+    "kana": "きょうし",
+    "romaji": "kyoushi",
+    "arti": {
+      "id": "guru, dosen"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{学生|がくせい}",
+    "kana": "がくせい",
+    "romaji": "gakusei",
+    "arti": {
+      "id": "mahasiswa"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{会社員|かいしゃいん}",
+    "kana": "かいしゃいん",
+    "romaji": "kaishain",
+    "arti": {
+      "id": "karyawan perusahaan"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{社員|しゃいん}",
+    "kana": "しゃいん",
+    "romaji": "shain",
+    "arti": {
+      "id": "karyawan perusahaan"
+    },
+    "catatan": {
+      "id": "dipakai bersama nama perusahaan, contoh: IMC の しゃいん"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{銀行員|ぎんこういん}",
+    "kana": "ぎんこういん",
+    "romaji": "ginkouin",
+    "arti": {
+      "id": "pegawai bank"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{医者|いしゃ}",
+    "kana": "いしゃ",
+    "romaji": "isha",
+    "arti": {
+      "id": "dokter"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{研究者|けんきゅうしゃ}",
+    "kana": "けんきゅうしゃ",
+    "romaji": "kenkyuusha",
+    "arti": {
+      "id": "peneliti"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{大学|だいがく}",
+    "kana": "だいがく",
+    "romaji": "daigaku",
+    "arti": {
+      "id": "universitas"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{病院|びょういん}",
+    "kana": "びょういん",
+    "romaji": "byouin",
+    "arti": {
+      "id": "rumah sakit"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "だれ（どなた）",
+    "kana": "だれ（どなた）",
+    "romaji": "dare (donata)",
+    "arti": {
+      "id": "siapa"
+    },
+    "catatan": {
+      "id": "どなた adalah bentuk sopan dari だれ"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "－{歳|さい}",
+    "kana": "－さい",
+    "romaji": "-sai",
+    "arti": {
+      "id": "－ tahun"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{何歳|なんさい}（おいくつ）",
+    "kana": "なんさい（おいくつ）",
+    "romaji": "nansai (oikutsu)",
+    "arti": {
+      "id": "umur berapa"
+    },
+    "catatan": {
+      "id": "おいくつ adalah bentuk sopan dari なんさい"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "はい",
+    "kana": "はい",
+    "romaji": "hai",
+    "arti": {
+      "id": "ya"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "いいえ",
+    "kana": "いいえ",
+    "romaji": "iie",
+    "arti": {
+      "id": "tidak, bukan"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{初|はじ}めまして。",
+    "kana": "はじめまして。",
+    "romaji": "hajimemashite.",
+    "arti": {
+      "id": "Perkenalkan."
+    },
+    "catatan": {
+      "id": "ucapan salam pada waktu pertama kali berkenalan"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "～から {来|き}ました。",
+    "kana": "～から きました。",
+    "romaji": "~kara kimashita.",
+    "arti": {
+      "id": "datang dari ～, berasal dari ～"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "［どうぞ］よろしく［お{願|ねが}いします］。",
+    "kana": "［どうぞ］よろしく［おねがいします］。",
+    "romaji": "[douzo] yoroshiku [onegaishimasu].",
+    "arti": {
+      "id": "Salam kenal."
+    },
+    "catatan": {
+      "id": "ucapan terakhir untuk perkenalkan diri"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{失礼|しつれい}ですが",
+    "kana": "しつれいですが",
+    "romaji": "shitsurei desu ga",
+    "arti": {
+      "id": "permisi, maaf"
+    },
+    "catatan": {
+      "id": "digunakan ketika bertanya tentang hal yang pribadi seperti nama, alamat dan sebagainya"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "お{名前|なまえ}は？",
+    "kana": "おなまえは？",
+    "romaji": "onamae wa?",
+    "arti": {
+      "id": "Siapa namanya?"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "こちらは ～さんです。",
+    "kana": "こちらは ～さんです。",
+    "romaji": "kochira wa ~san desu.",
+    "arti": {
+      "id": "Ini Bapak ～./Ini Ibu, Sdr. ～."
+    }
+  },
+  {
+    "bab": 1,
+    "display": "アメリカ",
+    "kana": "アメリカ",
+    "romaji": "amerika",
+    "arti": {
+      "id": "Amerika Serikat"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "イギリス",
+    "kana": "イギリス",
+    "romaji": "igirisu",
+    "arti": {
+      "id": "Inggris"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "インド",
+    "kana": "インド",
+    "romaji": "indo",
+    "arti": {
+      "id": "India"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "インドネシア",
+    "kana": "インドネシア",
+    "romaji": "indoneshia",
+    "arti": {
+      "id": "Indonesia"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{韓国|かんこく}",
+    "kana": "かんこく",
+    "romaji": "kankoku",
+    "arti": {
+      "id": "Korea Selatan"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "タイ",
+    "kana": "タイ",
+    "romaji": "tai",
+    "arti": {
+      "id": "Thailand"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{中国|ちゅうごく}",
+    "kana": "ちゅうごく",
+    "romaji": "chuugoku",
+    "arti": {
+      "id": "Cina"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "ドイツ",
+    "kana": "ドイツ",
+    "romaji": "doitsu",
+    "arti": {
+      "id": "Jerman"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "{日本|にほん}",
+    "kana": "にほん",
+    "romaji": "nihon",
+    "arti": {
+      "id": "Jepang"
+    }
+  },
+  {
+    "bab": 1,
+    "display": "ブラジル",
+    "kana": "ブラジル",
+    "romaji": "burajiru",
+    "arti": {
+      "id": "Brasil"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "これ",
+    "kana": "これ",
+    "romaji": "kore",
+    "arti": {
+      "id": "ini"
+    },
+    "catatan": {
+      "id": "benda yang ada di dekat si pembicara"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "それ",
+    "kana": "それ",
+    "romaji": "sore",
+    "arti": {
+      "id": "itu"
+    },
+    "catatan": {
+      "id": "benda yang ada di dekat lawan bicara"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "あれ",
+    "kana": "あれ",
+    "romaji": "are",
+    "arti": {
+      "id": "itu"
+    },
+    "catatan": {
+      "id": "benda yang ada jauh dari si pembicara dan lawan bicara"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "この ～",
+    "kana": "この ～",
+    "romaji": "kono ~",
+    "arti": {
+      "id": "～ ini"
+    },
+    "catatan": {
+      "id": "menerangkan benda atau orang yang ada di dekat si pembicara"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "その ～",
+    "kana": "その ～",
+    "romaji": "sono ~",
+    "arti": {
+      "id": "～ itu"
+    },
+    "catatan": {
+      "id": "menerangkan benda atau orang yang ada di dekat lawan bicara"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "あの ～",
+    "kana": "あの ～",
+    "romaji": "ano ~",
+    "arti": {
+      "id": "～ itu"
+    },
+    "catatan": {
+      "id": "menerangkan benda atau orang yang ada jauh dari si pembicara dan lawan bicara"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{本|ほん}",
+    "kana": "ほん",
+    "romaji": "hon",
+    "arti": {
+      "id": "buku"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{辞書|じしょ}",
+    "kana": "じしょ",
+    "romaji": "jisho",
+    "arti": {
+      "id": "kamus"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{雑誌|ざっし}",
+    "kana": "ざっし",
+    "romaji": "zasshi",
+    "arti": {
+      "id": "majalah"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{新聞|しんぶん}",
+    "kana": "しんぶん",
+    "romaji": "shinbun",
+    "arti": {
+      "id": "koran, surat kabar"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "ノート",
+    "kana": "ノート",
+    "romaji": "nooto",
+    "arti": {
+      "id": "buku tulis, buku catatan"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{手帳|てちょう}",
+    "kana": "てちょう",
+    "romaji": "techou",
+    "arti": {
+      "id": "buku agenda"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{名刺|めいし}",
+    "kana": "めいし",
+    "romaji": "meishi",
+    "arti": {
+      "id": "kartu nama"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "カード",
+    "kana": "カード",
+    "romaji": "kaado",
+    "arti": {
+      "id": "kartu"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{鉛筆|えんぴつ}",
+    "kana": "えんぴつ",
+    "romaji": "enpitsu",
+    "arti": {
+      "id": "pensil"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "ボールペン",
+    "kana": "ボールペン",
+    "romaji": "boorupen",
+    "arti": {
+      "id": "bolpoin"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "シャープペンシル",
+    "kana": "シャープペンシル",
+    "romaji": "shaapupenshiru",
+    "arti": {
+      "id": "pensil mekanik, pensil isi ulang"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "かぎ",
+    "kana": "かぎ",
+    "romaji": "kagi",
+    "arti": {
+      "id": "kunci"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{時計|とけい}",
+    "kana": "とけい",
+    "romaji": "tokei",
+    "arti": {
+      "id": "jam, arloji"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{傘|かさ}",
+    "kana": "かさ",
+    "romaji": "kasa",
+    "arti": {
+      "id": "payung"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "かばん",
+    "kana": "かばん",
+    "romaji": "kaban",
+    "arti": {
+      "id": "tas"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "CD",
+    "kana": "CD",
+    "romaji": "CD",
+    "arti": {
+      "id": "CD"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "テレビ",
+    "kana": "テレビ",
+    "romaji": "terebi",
+    "arti": {
+      "id": "televisi"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "ラジオ",
+    "kana": "ラジオ",
+    "romaji": "rajio",
+    "arti": {
+      "id": "radio"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "カメラ",
+    "kana": "カメラ",
+    "romaji": "kamera",
+    "arti": {
+      "id": "kamera"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "コンピューター",
+    "kana": "コンピューター",
+    "romaji": "konpyuutaa",
+    "arti": {
+      "id": "komputer, PC"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{車|くるま}",
+    "kana": "くるま",
+    "romaji": "kuruma",
+    "arti": {
+      "id": "mobil"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{机|つくえ}",
+    "kana": "つくえ",
+    "romaji": "tsukue",
+    "arti": {
+      "id": "meja, meja tulis"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "いす",
+    "kana": "いす",
+    "romaji": "isu",
+    "arti": {
+      "id": "kursi"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "チョコレート",
+    "kana": "チョコレート",
+    "romaji": "chokoreeto",
+    "arti": {
+      "id": "coklat"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "コーヒー",
+    "kana": "コーヒー",
+    "romaji": "koohii",
+    "arti": {
+      "id": "kopi"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "［お］{土産|みやげ}",
+    "kana": "［お］みやげ",
+    "romaji": "[o]miyage",
+    "arti": {
+      "id": "oleh-oleh"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{英語|えいご}",
+    "kana": "えいご",
+    "romaji": "eigo",
+    "arti": {
+      "id": "bahasa Inggris"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{日本語|にほんご}",
+    "kana": "にほんご",
+    "romaji": "nihongo",
+    "arti": {
+      "id": "bahasa Jepang"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "～{語|ご}",
+    "kana": "～ご",
+    "romaji": "~go",
+    "arti": {
+      "id": "bahasa ～"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{何|なん}",
+    "kana": "なん",
+    "romaji": "nan",
+    "arti": {
+      "id": "apa"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "そう",
+    "kana": "そう",
+    "romaji": "sou",
+    "arti": {
+      "id": "begitu"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "あのう",
+    "kana": "あのう",
+    "romaji": "anou",
+    "arti": {
+      "id": "Eee…"
+    },
+    "catatan": {
+      "id": "ungkapan yang digunakan kepada lawan bicara dalam perasaan ragu-ragu"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "えっ",
+    "kana": "えっ",
+    "romaji": "e'",
+    "arti": {
+      "id": "Eh"
+    },
+    "catatan": {
+      "id": "dipakai ketika mendengar sesuatu yang di luar dugaan"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "どうぞ。",
+    "kana": "どうぞ。",
+    "romaji": "douzo.",
+    "arti": {
+      "id": "Silakan."
+    },
+    "catatan": {
+      "id": "digunakan ketika menawarkan sesuatu (barang)"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "［どうも］ありがとう［ございます］。",
+    "kana": "［どうも］ありがとう［ございます］。",
+    "romaji": "[doumo] arigatou [gozaimasu].",
+    "arti": {
+      "id": "Terima kasih (banyak)."
+    }
+  },
+  {
+    "bab": 2,
+    "display": "そうですか。",
+    "kana": "そうですか。",
+    "romaji": "sou desu ka.",
+    "arti": {
+      "id": "O, begitu./O, ya."
+    }
+  },
+  {
+    "bab": 2,
+    "display": "{違|ちが}います。",
+    "kana": "ちがいます。",
+    "romaji": "chigaimasu.",
+    "arti": {
+      "id": "Bukan./Tidak./Salah."
+    }
+  },
+  {
+    "bab": 2,
+    "display": "あ",
+    "kana": "あ",
+    "romaji": "a",
+    "arti": {
+      "id": "O, Eh"
+    },
+    "catatan": {
+      "id": "dipakai ketika tersadar"
+    }
+  },
+  {
+    "bab": 2,
+    "display": "これから お{世話|せわ}に なります。",
+    "kana": "これから おせわに なります。",
+    "romaji": "korekara osewa ni narimasu.",
+    "arti": {
+      "id": "Mulai sekarang, saya akan meminta bantuannya."
+    }
+  },
+  {
+    "bab": 2,
+    "display": "こちらこそ［どうぞ］よろしく［お{願|ねが}いします］。",
+    "kana": "こちらこそ［どうぞ］よろしく［おねがいします］。",
+    "romaji": "kochirakoso [douzo] yoroshiku [onegaishimasu].",
+    "arti": {
+      "id": "Ya, sama-sama."
+    },
+    "catatan": {
+      "id": "jawaban terhadap ［どうぞ］よろしく［おねがいします］。"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "ここ",
+    "kana": "ここ",
+    "romaji": "koko",
+    "arti": {
+      "id": "sini"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "そこ",
+    "kana": "そこ",
+    "romaji": "soko",
+    "arti": {
+      "id": "situ"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "あそこ",
+    "kana": "あそこ",
+    "romaji": "asoko",
+    "arti": {
+      "id": "sana"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "どこ",
+    "kana": "どこ",
+    "romaji": "doko",
+    "arti": {
+      "id": "(di) mana"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "こちら",
+    "kana": "こちら",
+    "romaji": "kochira",
+    "arti": {
+      "id": "sini"
+    },
+    "catatan": {
+      "id": "bentuk sopan dari ここ"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "そちら",
+    "kana": "そちら",
+    "romaji": "sochira",
+    "arti": {
+      "id": "situ"
+    },
+    "catatan": {
+      "id": "bentuk sopan dari そこ"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "あちら",
+    "kana": "あちら",
+    "romaji": "achira",
+    "arti": {
+      "id": "sana"
+    },
+    "catatan": {
+      "id": "bentuk sopan dari あそこ"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "どちら",
+    "kana": "どちら",
+    "romaji": "dochira",
+    "arti": {
+      "id": "mana"
+    },
+    "catatan": {
+      "id": "bentuk sopan dari どこ"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{教室|きょうしつ}",
+    "kana": "きょうしつ",
+    "romaji": "kyoushitsu",
+    "arti": {
+      "id": "ruang kelas"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{食堂|しょくどう}",
+    "kana": "しょくどう",
+    "romaji": "shokudou",
+    "arti": {
+      "id": "ruang makan, rumah makan, kantin"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{事務所|じむしょ}",
+    "kana": "じむしょ",
+    "romaji": "jimusho",
+    "arti": {
+      "id": "kantor"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{会議室|かいぎしつ}",
+    "kana": "かいぎしつ",
+    "romaji": "kaigishitsu",
+    "arti": {
+      "id": "ruang rapat"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{受付|うけつけ}",
+    "kana": "うけつけ",
+    "romaji": "uketsuke",
+    "arti": {
+      "id": "meja informasi"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "ロビー",
+    "kana": "ロビー",
+    "romaji": "robii",
+    "arti": {
+      "id": "ruang tunggu, lobi"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{部屋|へや}",
+    "kana": "へや",
+    "romaji": "heya",
+    "arti": {
+      "id": "kamar"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "トイレ（お{手洗|てあら}い）",
+    "kana": "トイレ（おてあらい）",
+    "romaji": "toire (otearai)",
+    "arti": {
+      "id": "kamar kecil, toilet, W.C."
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{階段|かいだん}",
+    "kana": "かいだん",
+    "romaji": "kaidan",
+    "arti": {
+      "id": "tangga"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "エレベーター",
+    "kana": "エレベーター",
+    "romaji": "erebeetaa",
+    "arti": {
+      "id": "lift"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "エスカレーター",
+    "kana": "エスカレーター",
+    "romaji": "esukareetaa",
+    "arti": {
+      "id": "tangga berjalan, eskalator"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{自動販売機|じどうはんばいき}",
+    "kana": "じどうはんばいき",
+    "romaji": "jidouhanbaiki",
+    "arti": {
+      "id": "mesin jual otomatis"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{電話|でんわ}",
+    "kana": "でんわ",
+    "romaji": "denwa",
+    "arti": {
+      "id": "telepon"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "［お］{国|くに}",
+    "kana": "［お］くに",
+    "romaji": "[o]kuni",
+    "arti": {
+      "id": "negara, negeri"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{会社|かいしゃ}",
+    "kana": "かいしゃ",
+    "romaji": "kaisha",
+    "arti": {
+      "id": "perusahaan"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "うち",
+    "kana": "うち",
+    "romaji": "uchi",
+    "arti": {
+      "id": "rumah"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{靴|くつ}",
+    "kana": "くつ",
+    "romaji": "kutsu",
+    "arti": {
+      "id": "sepatu"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "ネクタイ",
+    "kana": "ネクタイ",
+    "romaji": "nekutai",
+    "arti": {
+      "id": "dasi"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "ワイン",
+    "kana": "ワイン",
+    "romaji": "wain",
+    "arti": {
+      "id": "anggur"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{売|う}り{場|ば}",
+    "kana": "うりば",
+    "romaji": "uriba",
+    "arti": {
+      "id": "tempat penjualan"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{地下|ちか}",
+    "kana": "ちか",
+    "romaji": "chika",
+    "arti": {
+      "id": "bawah tanah, basement"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "－{階|かい}（－がい）",
+    "kana": "－かい（－がい）",
+    "romaji": "-kai (-gai)",
+    "arti": {
+      "id": "lantai －, tingkat －"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{何階|なんがい}",
+    "kana": "なんがい",
+    "romaji": "nangai",
+    "arti": {
+      "id": "lantai berapa, tingkat berapa"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "－{円|えん}",
+    "kana": "－えん",
+    "romaji": "-en",
+    "arti": {
+      "id": "－ yen"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "いくら",
+    "kana": "いくら",
+    "romaji": "ikura",
+    "arti": {
+      "id": "berapa"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{百|ひゃく}",
+    "kana": "ひゃく",
+    "romaji": "hyaku",
+    "arti": {
+      "id": "ratus"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{千|せん}",
+    "kana": "せん",
+    "romaji": "sen",
+    "arti": {
+      "id": "ribu"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{万|まん}",
+    "kana": "まん",
+    "romaji": "man",
+    "arti": {
+      "id": "puluh ribu"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "すみません。",
+    "kana": "すみません。",
+    "romaji": "sumimasen.",
+    "arti": {
+      "id": "Maaf./Permisi."
+    }
+  },
+  {
+    "bab": 3,
+    "display": "どうも。",
+    "kana": "どうも。",
+    "romaji": "doumo.",
+    "arti": {
+      "id": "Terima kasih."
+    }
+  },
+  {
+    "bab": 3,
+    "display": "いらっしゃいませ。",
+    "kana": "いらっしゃいませ。",
+    "romaji": "irasshaimase.",
+    "arti": {
+      "id": "Selamat datang./Bisa saya bantu?"
+    },
+    "catatan": {
+      "id": "ungkapan kepada tamu yang masuk ke toko"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "［～を］{見|み}せて ください。",
+    "kana": "［～を］みせて ください。",
+    "romaji": "[~o] misete kudasai.",
+    "arti": {
+      "id": "Tolong perlihatkan [～]."
+    }
+  },
+  {
+    "bab": 3,
+    "display": "じゃ",
+    "kana": "じゃ",
+    "romaji": "ja",
+    "arti": {
+      "id": "Baiklah, kalau begitu,"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "［～を］ください。",
+    "kana": "［～を］ください。",
+    "romaji": "[~o] kudasai.",
+    "arti": {
+      "id": "Minta [～]./Tolong berikan [～]."
+    }
+  },
+  {
+    "bab": 3,
+    "display": "イタリア",
+    "kana": "イタリア",
+    "romaji": "itaria",
+    "arti": {
+      "id": "Italia"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "スイス",
+    "kana": "スイス",
+    "romaji": "suisu",
+    "arti": {
+      "id": "Swiss"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "フランス",
+    "kana": "フランス",
+    "romaji": "furansu",
+    "arti": {
+      "id": "Perancis"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "ジャカルタ",
+    "kana": "ジャカルタ",
+    "romaji": "jakaruta",
+    "arti": {
+      "id": "Jakarta"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "バンコク",
+    "kana": "バンコク",
+    "romaji": "bankoku",
+    "arti": {
+      "id": "Bangkok"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "ベルリン",
+    "kana": "ベルリン",
+    "romaji": "berurin",
+    "arti": {
+      "id": "Berlin"
+    }
+  },
+  {
+    "bab": 3,
+    "display": "{新大阪|しんおおさか}",
+    "kana": "しんおおさか",
+    "romaji": "shin'oosaka",
+    "arti": {
+      "id": "nama stasiun yang ada di Osaka"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{起|お}きます",
+    "kana": "おきます",
+    "romaji": "okimasu",
+    "arti": {
+      "id": "bangun"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{寝|ね}ます",
+    "kana": "ねます",
+    "romaji": "nemasu",
+    "arti": {
+      "id": "tidur"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{働|はたら}きます",
+    "kana": "はたらきます",
+    "romaji": "hatarakimasu",
+    "arti": {
+      "id": "bekerja"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{休|やす}みます",
+    "kana": "やすみます",
+    "romaji": "yasumimasu",
+    "arti": {
+      "id": "beristirahat, libur"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{勉強|べんきょう}します",
+    "kana": "べんきょうします",
+    "romaji": "benkyoushimasu",
+    "arti": {
+      "id": "belajar"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{終|お}わります",
+    "kana": "おわります",
+    "romaji": "owarimasu",
+    "arti": {
+      "id": "selesai"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "デパート",
+    "kana": "デパート",
+    "romaji": "depaato",
+    "arti": {
+      "id": "toserba"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{銀行|ぎんこう}",
+    "kana": "ぎんこう",
+    "romaji": "ginkou",
+    "arti": {
+      "id": "bank"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{郵便局|ゆうびんきょく}",
+    "kana": "ゆうびんきょく",
+    "romaji": "yuubinkyoku",
+    "arti": {
+      "id": "kantor pos"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{図書館|としょかん}",
+    "kana": "としょかん",
+    "romaji": "toshokan",
+    "arti": {
+      "id": "perpustakaan"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{美術館|びじゅつかん}",
+    "kana": "びじゅつかん",
+    "romaji": "bijutsukan",
+    "arti": {
+      "id": "gedung kesenian"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{今|いま}",
+    "kana": "いま",
+    "romaji": "ima",
+    "arti": {
+      "id": "sekarang"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "－{時|じ}",
+    "kana": "－じ",
+    "romaji": "-ji",
+    "arti": {
+      "id": "jam －, pukul －"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "－{分|ふん}（－ぷん）",
+    "kana": "－ふん（－ぷん）",
+    "romaji": "-fun (-pun)",
+    "arti": {
+      "id": "－ menit"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{半|はん}",
+    "kana": "はん",
+    "romaji": "han",
+    "arti": {
+      "id": "setengah"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{何時|なんじ}",
+    "kana": "なんじ",
+    "romaji": "nanji",
+    "arti": {
+      "id": "jam berapa, pukul berapa"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{何分|なんぷん}",
+    "kana": "なんぷん",
+    "romaji": "nanpun",
+    "arti": {
+      "id": "berapa menit"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{午前|ごぜん}",
+    "kana": "ごぜん",
+    "romaji": "gozen",
+    "arti": {
+      "id": "a.m."
+    },
+    "catatan": {
+      "id": "waktu sebelum jam 12 siang"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{午後|ごご}",
+    "kana": "ごご",
+    "romaji": "gogo",
+    "arti": {
+      "id": "p.m."
+    },
+    "catatan": {
+      "id": "waktu setelah jam 12 siang"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{朝|あさ}",
+    "kana": "あさ",
+    "romaji": "asa",
+    "arti": {
+      "id": "pagi"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{昼|ひる}",
+    "kana": "ひる",
+    "romaji": "hiru",
+    "arti": {
+      "id": "siang"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{晩|ばん}（{夜|よる}）",
+    "kana": "ばん（よる）",
+    "romaji": "ban (yoru)",
+    "arti": {
+      "id": "malam"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "おととい",
+    "kana": "おととい",
+    "romaji": "ototoi",
+    "arti": {
+      "id": "dua hari yang lalu, kemarin lusa"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "きのう",
+    "kana": "きのう",
+    "romaji": "kinou",
+    "arti": {
+      "id": "kemarin"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "きょう",
+    "kana": "きょう",
+    "romaji": "kyou",
+    "arti": {
+      "id": "hari ini"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "あした",
+    "kana": "あした",
+    "romaji": "ashita",
+    "arti": {
+      "id": "besok"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "あさって",
+    "kana": "あさって",
+    "romaji": "asatte",
+    "arti": {
+      "id": "lusa"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "けさ",
+    "kana": "けさ",
+    "romaji": "kesa",
+    "arti": {
+      "id": "pagi ini, tadi pagi"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{今晩|こんばん}",
+    "kana": "こんばん",
+    "romaji": "konban",
+    "arti": {
+      "id": "malam ini, nanti malam"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{休|やす}み",
+    "kana": "やすみ",
+    "romaji": "yasumi",
+    "arti": {
+      "id": "istirahat, cuti, libur"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{昼休|ひるやす}み",
+    "kana": "ひるやすみ",
+    "romaji": "hiruyasumi",
+    "arti": {
+      "id": "istirahat siang"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{試験|しけん}",
+    "kana": "しけん",
+    "romaji": "shiken",
+    "arti": {
+      "id": "ujian"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{会議|かいぎ}",
+    "kana": "かいぎ",
+    "romaji": "kaigi",
+    "arti": {
+      "id": "rapat"
+    },
+    "catatan": {
+      "id": "～を します: mengadakan rapat"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{映画|えいが}",
+    "kana": "えいが",
+    "romaji": "eiga",
+    "arti": {
+      "id": "film"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{毎朝|まいあさ}",
+    "kana": "まいあさ",
+    "romaji": "maiasa",
+    "arti": {
+      "id": "setiap pagi"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{毎晩|まいばん}",
+    "kana": "まいばん",
+    "romaji": "maiban",
+    "arti": {
+      "id": "setiap malam"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{毎日|まいにち}",
+    "kana": "まいにち",
+    "romaji": "mainichi",
+    "arti": {
+      "id": "setiap hari"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{月曜日|げつようび}",
+    "kana": "げつようび",
+    "romaji": "getsuyoubi",
+    "arti": {
+      "id": "hari Senin"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{火曜日|かようび}",
+    "kana": "かようび",
+    "romaji": "kayoubi",
+    "arti": {
+      "id": "hari Selasa"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{水曜日|すいようび}",
+    "kana": "すいようび",
+    "romaji": "suiyoubi",
+    "arti": {
+      "id": "hari Rabu"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{木曜日|もくようび}",
+    "kana": "もくようび",
+    "romaji": "mokuyoubi",
+    "arti": {
+      "id": "hari Kamis"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{金曜日|きんようび}",
+    "kana": "きんようび",
+    "romaji": "kin'youbi",
+    "arti": {
+      "id": "hari Jumat"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{土曜日|どようび}",
+    "kana": "どようび",
+    "romaji": "doyoubi",
+    "arti": {
+      "id": "hari Sabtu"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{日曜日|にちようび}",
+    "kana": "にちようび",
+    "romaji": "nichiyoubi",
+    "arti": {
+      "id": "hari Minggu"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{何曜日|なんようび}",
+    "kana": "なんようび",
+    "romaji": "nan'youbi",
+    "arti": {
+      "id": "hari apa"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "～から",
+    "kana": "～から",
+    "romaji": "~kara",
+    "arti": {
+      "id": "dari ～"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "～まで",
+    "kana": "～まで",
+    "romaji": "~made",
+    "arti": {
+      "id": "sampai ～"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "～と ～",
+    "kana": "～と ～",
+    "romaji": "~to ~",
+    "arti": {
+      "id": "～ dan ～"
+    },
+    "catatan": {
+      "id": "digunakan jika menyambung kata benda"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{大変|たいへん}ですね。",
+    "kana": "たいへんですね。",
+    "romaji": "taihen desu ne.",
+    "arti": {
+      "id": "O, berat ya."
+    },
+    "catatan": {
+      "id": "ungkapan untuk menyatakan rasa simpati dari lawan bicara terhadap si pembicara yang mengalami suatu hal yang dianggap susah"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{番号|ばんごう}",
+    "kana": "ばんごう",
+    "romaji": "bangou",
+    "arti": {
+      "id": "nomor"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "{何番|なんばん}",
+    "kana": "なんばん",
+    "romaji": "nanban",
+    "arti": {
+      "id": "nomor berapa"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "そちら",
+    "kana": "そちら",
+    "romaji": "sochira",
+    "arti": {
+      "id": "di situ"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "ニューヨーク",
+    "kana": "ニューヨーク",
+    "romaji": "nyuuyooku",
+    "arti": {
+      "id": "New York"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "ペキン",
+    "kana": "ペキン",
+    "romaji": "pekin",
+    "arti": {
+      "id": "Beijing"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "ロサンゼルス",
+    "kana": "ロサンゼルス",
+    "romaji": "rosanzerusu",
+    "arti": {
+      "id": "Los Angeles"
+    }
+  },
+  {
+    "bab": 4,
+    "display": "ロンドン",
+    "kana": "ロンドン",
+    "romaji": "rondon",
+    "arti": {
+      "id": "London"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{行|い}きます",
+    "kana": "いきます",
+    "romaji": "ikimasu",
+    "arti": {
+      "id": "pergi"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{来|き}ます",
+    "kana": "きます",
+    "romaji": "kimasu",
+    "arti": {
+      "id": "datang"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{帰|かえ}ります",
+    "kana": "かえります",
+    "romaji": "kaerimasu",
+    "arti": {
+      "id": "pulang"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{学校|がっこう}",
+    "kana": "がっこう",
+    "romaji": "gakkou",
+    "arti": {
+      "id": "sekolah"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "スーパー",
+    "kana": "スーパー",
+    "romaji": "suupaa",
+    "arti": {
+      "id": "pasar swalayan"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{駅|えき}",
+    "kana": "えき",
+    "romaji": "eki",
+    "arti": {
+      "id": "stasiun"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{飛行機|ひこうき}",
+    "kana": "ひこうき",
+    "romaji": "hikouki",
+    "arti": {
+      "id": "pesawat terbang"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{船|ふね}",
+    "kana": "ふね",
+    "romaji": "fune",
+    "arti": {
+      "id": "kapal laut"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{電車|でんしゃ}",
+    "kana": "でんしゃ",
+    "romaji": "densha",
+    "arti": {
+      "id": "kereta rel listrik"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{地下鉄|ちかてつ}",
+    "kana": "ちかてつ",
+    "romaji": "chikatetsu",
+    "arti": {
+      "id": "kereta bawah tanah"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{新幹線|しんかんせん}",
+    "kana": "しんかんせん",
+    "romaji": "shinkansen",
+    "arti": {
+      "id": "Shinkansen"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "バス",
+    "kana": "バス",
+    "romaji": "basu",
+    "arti": {
+      "id": "bus"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "タクシー",
+    "kana": "タクシー",
+    "romaji": "takushii",
+    "arti": {
+      "id": "taksi"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{自転車|じてんしゃ}",
+    "kana": "じてんしゃ",
+    "romaji": "jitensha",
+    "arti": {
+      "id": "sepeda"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{歩|ある}いて",
+    "kana": "あるいて",
+    "romaji": "aruite",
+    "arti": {
+      "id": "dengan berjalan kaki"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{人|ひと}",
+    "kana": "ひと",
+    "romaji": "hito",
+    "arti": {
+      "id": "orang"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{友達|ともだち}",
+    "kana": "ともだち",
+    "romaji": "tomodachi",
+    "arti": {
+      "id": "teman"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{彼|かれ}",
+    "kana": "かれ",
+    "romaji": "kare",
+    "arti": {
+      "id": "dia (laki-laki)"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{彼女|かのじょ}",
+    "kana": "かのじょ",
+    "romaji": "kanojo",
+    "arti": {
+      "id": "dia (perempuan)"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{家族|かぞく}",
+    "kana": "かぞく",
+    "romaji": "kazoku",
+    "arti": {
+      "id": "keluarga"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{一人|ひとり}で",
+    "kana": "ひとりで",
+    "romaji": "hitoride",
+    "arti": {
+      "id": "sendirian, dengan sendiri"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{先週|せんしゅう}",
+    "kana": "せんしゅう",
+    "romaji": "senshuu",
+    "arti": {
+      "id": "minggu lalu"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{今週|こんしゅう}",
+    "kana": "こんしゅう",
+    "romaji": "konshuu",
+    "arti": {
+      "id": "minggu ini"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{来週|らいしゅう}",
+    "kana": "らいしゅう",
+    "romaji": "raishuu",
+    "arti": {
+      "id": "minggu depan"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{先月|せんげつ}",
+    "kana": "せんげつ",
+    "romaji": "sengetsu",
+    "arti": {
+      "id": "bulan lalu"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{今月|こんげつ}",
+    "kana": "こんげつ",
+    "romaji": "kongetsu",
+    "arti": {
+      "id": "bulan ini"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{来月|らいげつ}",
+    "kana": "らいげつ",
+    "romaji": "raigetsu",
+    "arti": {
+      "id": "bulan depan"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{去年|きょねん}",
+    "kana": "きょねん",
+    "romaji": "kyonen",
+    "arti": {
+      "id": "tahun lalu"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "ことし",
+    "kana": "ことし",
+    "romaji": "kotoshi",
+    "arti": {
+      "id": "tahun ini"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{来年|らいねん}",
+    "kana": "らいねん",
+    "romaji": "rainen",
+    "arti": {
+      "id": "tahun depan"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "－{年|ねん}",
+    "kana": "－ねん",
+    "romaji": "-nen",
+    "arti": {
+      "id": "tahun －"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{何年|なんねん}",
+    "kana": "なんねん",
+    "romaji": "nannen",
+    "arti": {
+      "id": "tahun berapa"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "－{月|がつ}",
+    "kana": "－がつ",
+    "romaji": "-gatsu",
+    "arti": {
+      "id": "bulan －"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{何月|なんがつ}",
+    "kana": "なんがつ",
+    "romaji": "nangatsu",
+    "arti": {
+      "id": "bulan apa"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{1日|ついたち}",
+    "kana": "ついたち",
+    "romaji": "tsuitachi",
+    "arti": {
+      "id": "tanggal satu"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{2日|ふつか}",
+    "kana": "ふつか",
+    "romaji": "futsuka",
+    "arti": {
+      "id": "tanggal dua, dua hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{3日|みっか}",
+    "kana": "みっか",
+    "romaji": "mikka",
+    "arti": {
+      "id": "tanggal tiga, tiga hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{4日|よっか}",
+    "kana": "よっか",
+    "romaji": "yokka",
+    "arti": {
+      "id": "tanggal empat, empat hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{5日|いつか}",
+    "kana": "いつか",
+    "romaji": "itsuka",
+    "arti": {
+      "id": "tanggal lima, lima hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{6日|むいか}",
+    "kana": "むいか",
+    "romaji": "muika",
+    "arti": {
+      "id": "tanggal enam, enam hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{7日|なのか}",
+    "kana": "なのか",
+    "romaji": "nanoka",
+    "arti": {
+      "id": "tanggal tujuh, tujuh hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{8日|ようか}",
+    "kana": "ようか",
+    "romaji": "youka",
+    "arti": {
+      "id": "tanggal delapan, delapan hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{9日|ここのか}",
+    "kana": "ここのか",
+    "romaji": "kokonoka",
+    "arti": {
+      "id": "tanggal sembilan, sembilan hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{10日|とおか}",
+    "kana": "とおか",
+    "romaji": "tooka",
+    "arti": {
+      "id": "tanggal sepuluh, sepuluh hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{14日|じゅうよっか}",
+    "kana": "じゅうよっか",
+    "romaji": "juuyokka",
+    "arti": {
+      "id": "tanggal empat belas, empat belas hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{20日|はつか}",
+    "kana": "はつか",
+    "romaji": "hatsuka",
+    "arti": {
+      "id": "tanggal dua puluh, dua puluh hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{24日|にじゅうよっか}",
+    "kana": "にじゅうよっか",
+    "romaji": "nijuuyokka",
+    "arti": {
+      "id": "tanggal dua puluh empat, dua puluh empat hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "－{日|にち}",
+    "kana": "－にち",
+    "romaji": "-nichi",
+    "arti": {
+      "id": "tanggal －, － hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{何日|なんにち}",
+    "kana": "なんにち",
+    "romaji": "nannichi",
+    "arti": {
+      "id": "tanggal berapa, berapa hari"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "いつ",
+    "kana": "いつ",
+    "romaji": "itsu",
+    "arti": {
+      "id": "kapan"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{誕生日|たんじょうび}",
+    "kana": "たんじょうび",
+    "romaji": "tanjoubi",
+    "arti": {
+      "id": "hari ulang tahun"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "そうですね。",
+    "kana": "そうですね。",
+    "romaji": "sou desu ne.",
+    "arti": {
+      "id": "Ya, betul./Ya, begitulah."
+    }
+  },
+  {
+    "bab": 5,
+    "display": "［どうも］ありがとう ございました。",
+    "kana": "［どうも］ありがとう ございました。",
+    "romaji": "[doumo] arigatou gozaimashita.",
+    "arti": {
+      "id": "Terima kasih [banyak]."
+    }
+  },
+  {
+    "bab": 5,
+    "display": "どう いたしまして。",
+    "kana": "どう いたしまして。",
+    "romaji": "dou itashimashite.",
+    "arti": {
+      "id": "Sama-sama."
+    }
+  },
+  {
+    "bab": 5,
+    "display": "－{番線|ばんせん}",
+    "kana": "－ばんせん",
+    "romaji": "-bansen",
+    "arti": {
+      "id": "peron nomor －"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{次|つぎ}の",
+    "kana": "つぎの",
+    "romaji": "tsugino",
+    "arti": {
+      "id": "yang berikutnya"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{普通|ふつう}",
+    "kana": "ふつう",
+    "romaji": "futsuu",
+    "arti": {
+      "id": "biasa"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{急行|きゅうこう}",
+    "kana": "きゅうこう",
+    "romaji": "kyuukou",
+    "arti": {
+      "id": "ekspres"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{特急|とっきゅう}",
+    "kana": "とっきゅう",
+    "romaji": "tokkyuu",
+    "arti": {
+      "id": "super ekspres"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{甲子園|こうしえん}",
+    "kana": "こうしえん",
+    "romaji": "koushien",
+    "arti": {
+      "id": "nama kota yang terletak di dekat Osaka"
+    }
+  },
+  {
+    "bab": 5,
+    "display": "{大阪城|おおさかじょう}",
+    "kana": "おおさかじょう",
+    "romaji": "oosakajou",
+    "arti": {
+      "id": "nama benteng kuno terkenal di Osaka"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{食|た}べます",
+    "kana": "たべます",
+    "romaji": "tabemasu",
+    "arti": {
+      "id": "makan"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{飲|の}みます",
+    "kana": "のみます",
+    "romaji": "nomimasu",
+    "arti": {
+      "id": "minum"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{吸|す}います［たばこを～］",
+    "kana": "すいます［たばこを～］",
+    "romaji": "suimasu [tabako o ~]",
+    "arti": {
+      "id": "mengisap [rokok], merokok"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{見|み}ます",
+    "kana": "みます",
+    "romaji": "mimasu",
+    "arti": {
+      "id": "melihat, menonton"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{聞|き}きます",
+    "kana": "ききます",
+    "romaji": "kikimasu",
+    "arti": {
+      "id": "mendengar"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{読|よ}みます",
+    "kana": "よみます",
+    "romaji": "yomimasu",
+    "arti": {
+      "id": "membaca"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{書|か}きます",
+    "kana": "かきます",
+    "romaji": "kakimasu",
+    "arti": {
+      "id": "menulis, menggambar"
+    },
+    "catatan": {
+      "id": "かきます juga bermaksud menggambar, tetapi dalam buku ini yang dimaksud menggambar itu tertulis dalam hiragana"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{買|か}います",
+    "kana": "かいます",
+    "romaji": "kaimasu",
+    "arti": {
+      "id": "membeli"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{撮|と}ります［{写真|しゃしん}を～］",
+    "kana": "とります［しゃしんを～］",
+    "romaji": "torimasu [shashin o ~]",
+    "arti": {
+      "id": "mengambil [foto]"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "します",
+    "kana": "します",
+    "romaji": "shimasu",
+    "arti": {
+      "id": "mengerjakan, melakukan, berbuat"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{会|あ}います［{友達|ともだち}に～］",
+    "kana": "あいます［ともだちに～］",
+    "romaji": "aimasu [tomodachi ni ~]",
+    "arti": {
+      "id": "bertemu [dengan teman]"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "ごはん",
+    "kana": "ごはん",
+    "romaji": "gohan",
+    "arti": {
+      "id": "nasi"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{朝|あさ}ごはん",
+    "kana": "あさごはん",
+    "romaji": "asagohan",
+    "arti": {
+      "id": "sarapan"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{昼|ひる}ごはん",
+    "kana": "ひるごはん",
+    "romaji": "hirugohan",
+    "arti": {
+      "id": "makan siang"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{晩|ばん}ごはん",
+    "kana": "ばんごはん",
+    "romaji": "bangohan",
+    "arti": {
+      "id": "makan malam"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "パン",
+    "kana": "パン",
+    "romaji": "pan",
+    "arti": {
+      "id": "roti"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{卵|たまご}",
+    "kana": "たまご",
+    "romaji": "tamago",
+    "arti": {
+      "id": "telur"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{肉|にく}",
+    "kana": "にく",
+    "romaji": "niku",
+    "arti": {
+      "id": "daging"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{魚|さかな}",
+    "kana": "さかな",
+    "romaji": "sakana",
+    "arti": {
+      "id": "ikan"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{野菜|やさい}",
+    "kana": "やさい",
+    "romaji": "yasai",
+    "arti": {
+      "id": "sayur"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{果物|くだもの}",
+    "kana": "くだもの",
+    "romaji": "kudamono",
+    "arti": {
+      "id": "buah-buahan"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{水|みず}",
+    "kana": "みず",
+    "romaji": "mizu",
+    "arti": {
+      "id": "air"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "お{茶|ちゃ}",
+    "kana": "おちゃ",
+    "romaji": "ocha",
+    "arti": {
+      "id": "teh, teh hijau Jepang"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{紅茶|こうちゃ}",
+    "kana": "こうちゃ",
+    "romaji": "koucha",
+    "arti": {
+      "id": "teh"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{牛乳|ぎゅうにゅう}（ミルク）",
+    "kana": "ぎゅうにゅう（ミルク）",
+    "romaji": "gyuunyuu (miruku)",
+    "arti": {
+      "id": "susu"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "ジュース",
+    "kana": "ジュース",
+    "romaji": "juusu",
+    "arti": {
+      "id": "jus, sari buah"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "ビール",
+    "kana": "ビール",
+    "romaji": "biiru",
+    "arti": {
+      "id": "bir"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "［お］{酒|さけ}",
+    "kana": "［お］さけ",
+    "romaji": "[o]sake",
+    "arti": {
+      "id": "minuman keras"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "たばこ",
+    "kana": "たばこ",
+    "romaji": "tabako",
+    "arti": {
+      "id": "rokok"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{手紙|てがみ}",
+    "kana": "てがみ",
+    "romaji": "tegami",
+    "arti": {
+      "id": "surat"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "レポート",
+    "kana": "レポート",
+    "romaji": "repooto",
+    "arti": {
+      "id": "laporan"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{写真|しゃしん}",
+    "kana": "しゃしん",
+    "romaji": "shashin",
+    "arti": {
+      "id": "foto"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "ビデオ",
+    "kana": "ビデオ",
+    "romaji": "bideo",
+    "arti": {
+      "id": "kaset video, VHS"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{店|みせ}",
+    "kana": "みせ",
+    "romaji": "mise",
+    "arti": {
+      "id": "toko"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{庭|にわ}",
+    "kana": "にわ",
+    "romaji": "niwa",
+    "arti": {
+      "id": "halaman"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{宿題|しゅくだい}",
+    "kana": "しゅくだい",
+    "romaji": "shukudai",
+    "arti": {
+      "id": "pekerjaan rumah, PR"
+    },
+    "catatan": {
+      "id": "～を します: mengerjakan PR"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "テニス",
+    "kana": "テニス",
+    "romaji": "tenisu",
+    "arti": {
+      "id": "tenis"
+    },
+    "catatan": {
+      "id": "～を します: bermain tenis"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "サッカー",
+    "kana": "サッカー",
+    "romaji": "sakkaa",
+    "arti": {
+      "id": "sepak bola"
+    },
+    "catatan": {
+      "id": "～を します: bermain sepak bola"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "［お］{花見|はなみ}",
+    "kana": "［お］はなみ",
+    "romaji": "[o]hanami",
+    "arti": {
+      "id": "(O) Hanami, menikmati bunga Sakura"
+    },
+    "catatan": {
+      "id": "～を します: melihat dan menikmati bunga Sakura"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{何|なに}",
+    "kana": "なに",
+    "romaji": "nani",
+    "arti": {
+      "id": "apa"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "いっしょに",
+    "kana": "いっしょに",
+    "romaji": "isshoni",
+    "arti": {
+      "id": "bersama-sama"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "ちょっと",
+    "kana": "ちょっと",
+    "romaji": "chotto",
+    "arti": {
+      "id": "sebentar, sedikit"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "いつも",
+    "kana": "いつも",
+    "romaji": "itsumo",
+    "arti": {
+      "id": "selalu"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{時々|ときどき}",
+    "kana": "ときどき",
+    "romaji": "tokidoki",
+    "arti": {
+      "id": "kadang-kadang"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "それから",
+    "kana": "それから",
+    "romaji": "sorekara",
+    "arti": {
+      "id": "setelah itu, kemudian"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "ええ",
+    "kana": "ええ",
+    "romaji": "ee",
+    "arti": {
+      "id": "ya"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "いいですね。",
+    "kana": "いいですね。",
+    "romaji": "ii desu ne.",
+    "arti": {
+      "id": "Bagus ya./Baik ya."
+    }
+  },
+  {
+    "bab": 6,
+    "display": "わかりました。",
+    "kana": "わかりました。",
+    "romaji": "wakarimashita.",
+    "arti": {
+      "id": "Mengerti./Baik."
+    }
+  },
+  {
+    "bab": 6,
+    "display": "{何|なん}ですか。",
+    "kana": "なんですか。",
+    "romaji": "nan desu ka.",
+    "arti": {
+      "id": "Apa?"
+    }
+  },
+  {
+    "bab": 6,
+    "display": "じゃ、また［あした］。",
+    "kana": "じゃ、また［あした］。",
+    "romaji": "ja, mata [ashita].",
+    "arti": {
+      "id": "Ok, sampai jumpa [besok]."
+    }
+  },
+  {
+    "bab": 6,
+    "display": "メキシコ",
+    "kana": "メキシコ",
+    "romaji": "mekishiko",
+    "arti": {
+      "id": "Meksiko"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{切|き}ります",
+    "kana": "きります",
+    "romaji": "kirimasu",
+    "arti": {
+      "id": "memotong, menggunting"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{送|おく}ります",
+    "kana": "おくります",
+    "romaji": "okurimasu",
+    "arti": {
+      "id": "mengirim"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "あげます",
+    "kana": "あげます",
+    "romaji": "agemasu",
+    "arti": {
+      "id": "memberikan"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "もらいます",
+    "kana": "もらいます",
+    "romaji": "moraimasu",
+    "arti": {
+      "id": "mendapatkan, menerima"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{貸|か}します",
+    "kana": "かします",
+    "romaji": "kashimasu",
+    "arti": {
+      "id": "meminjamkan, menyewakan"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{借|か}ります",
+    "kana": "かります",
+    "romaji": "karimasu",
+    "arti": {
+      "id": "meminjam, menyewa"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{教|おし}えます",
+    "kana": "おしえます",
+    "romaji": "oshiemasu",
+    "arti": {
+      "id": "mengajar"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{習|なら}います",
+    "kana": "ならいます",
+    "romaji": "naraimasu",
+    "arti": {
+      "id": "belajar"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "かけます［{電話|でんわ}を～］",
+    "kana": "かけます［でんわを～］",
+    "romaji": "kakemasu [denwa o ~]",
+    "arti": {
+      "id": "menelepon"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{手|て}",
+    "kana": "て",
+    "romaji": "te",
+    "arti": {
+      "id": "tangan"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "はし",
+    "kana": "はし",
+    "romaji": "hashi",
+    "arti": {
+      "id": "sumpit"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "スプーン",
+    "kana": "スプーン",
+    "romaji": "supuun",
+    "arti": {
+      "id": "sendok"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "ナイフ",
+    "kana": "ナイフ",
+    "romaji": "naifu",
+    "arti": {
+      "id": "pisau"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "フォーク",
+    "kana": "フォーク",
+    "romaji": "fooku",
+    "arti": {
+      "id": "garpu"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "はさみ",
+    "kana": "はさみ",
+    "romaji": "hasami",
+    "arti": {
+      "id": "gunting"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "パソコン",
+    "kana": "パソコン",
+    "romaji": "pasokon",
+    "arti": {
+      "id": "komputer, PC"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "ケータイ",
+    "kana": "ケータイ",
+    "romaji": "keetai",
+    "arti": {
+      "id": "HP"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "メール",
+    "kana": "メール",
+    "romaji": "meeru",
+    "arti": {
+      "id": "e-mail"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{年賀状|ねんがじょう}",
+    "kana": "ねんがじょう",
+    "romaji": "nengajou",
+    "arti": {
+      "id": "kartu tahun baru"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "パンチ",
+    "kana": "パンチ",
+    "romaji": "panchi",
+    "arti": {
+      "id": "pelubang kertas"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "ホッチキス",
+    "kana": "ホッチキス",
+    "romaji": "hotchikisu",
+    "arti": {
+      "id": "stapler"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "セロテープ",
+    "kana": "セロテープ",
+    "romaji": "seroteepu",
+    "arti": {
+      "id": "selotip"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{消|け}しゴム",
+    "kana": "けしゴム",
+    "romaji": "keshigomu",
+    "arti": {
+      "id": "penghapus karet"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{紙|かみ}",
+    "kana": "かみ",
+    "romaji": "kami",
+    "arti": {
+      "id": "kertas"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{花|はな}",
+    "kana": "はな",
+    "romaji": "hana",
+    "arti": {
+      "id": "bunga"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "シャツ",
+    "kana": "シャツ",
+    "romaji": "shatsu",
+    "arti": {
+      "id": "kemeja"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "プレゼント",
+    "kana": "プレゼント",
+    "romaji": "purezento",
+    "arti": {
+      "id": "kado, hadiah"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{荷物|にもつ}",
+    "kana": "にもつ",
+    "romaji": "nimotsu",
+    "arti": {
+      "id": "barang"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "お{金|かね}",
+    "kana": "おかね",
+    "romaji": "okane",
+    "arti": {
+      "id": "uang"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{切符|きっぷ}",
+    "kana": "きっぷ",
+    "romaji": "kippu",
+    "arti": {
+      "id": "karcis"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "クリスマス",
+    "kana": "クリスマス",
+    "romaji": "kurisumasu",
+    "arti": {
+      "id": "Natal"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{父|ちち}",
+    "kana": "ちち",
+    "romaji": "chichi",
+    "arti": {
+      "id": "bapak, ayah"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{母|はは}",
+    "kana": "はは",
+    "romaji": "haha",
+    "arti": {
+      "id": "ibu"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "お{父|とう}さん",
+    "kana": "おとうさん",
+    "romaji": "otousan",
+    "arti": {
+      "id": "bapak, ayah"
+    },
+    "catatan": {
+      "id": "ayah orang lain, dan digunakan untuk bapak kandung sendiri juga ketika memanggilnya"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "お{母|かあ}さん",
+    "kana": "おかあさん",
+    "romaji": "okaasan",
+    "arti": {
+      "id": "ibu"
+    },
+    "catatan": {
+      "id": "ibu orang lain, dan digunakan untuk ibu kandung sendiri juga ketika memanggilnya"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "もう",
+    "kana": "もう",
+    "romaji": "mou",
+    "arti": {
+      "id": "sudah"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "まだ",
+    "kana": "まだ",
+    "romaji": "mada",
+    "arti": {
+      "id": "belum"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "これから",
+    "kana": "これから",
+    "romaji": "korekara",
+    "arti": {
+      "id": "mulai dari sekarang"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "［～、］すてきですね。",
+    "kana": "［～、］すてきですね。",
+    "romaji": "[~,] suteki desu ne.",
+    "arti": {
+      "id": "[～] bagus ya. / [～] indah ya."
+    }
+  },
+  {
+    "bab": 7,
+    "display": "いらっしゃい。",
+    "kana": "いらっしゃい。",
+    "romaji": "irasshai.",
+    "arti": {
+      "id": "Selamat datang."
+    }
+  },
+  {
+    "bab": 7,
+    "display": "どうぞ お{上|あ}がり ください。",
+    "kana": "どうぞ おあがり ください。",
+    "romaji": "douzo oagari kudasai.",
+    "arti": {
+      "id": "Silakan masuk."
+    }
+  },
+  {
+    "bab": 7,
+    "display": "{失礼|しつれい}します。",
+    "kana": "しつれいします。",
+    "romaji": "shitsurei shimasu.",
+    "arti": {
+      "id": "Permisi."
+    }
+  },
+  {
+    "bab": 7,
+    "display": "［～は］いかがですか。",
+    "kana": "［～は］いかがですか。",
+    "romaji": "[~wa] ikaga desu ka.",
+    "arti": {
+      "id": "Bagaimana [～]?"
+    },
+    "catatan": {
+      "id": "digunakan saat menawarkan sesuatu kepada orang"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "いただきます。",
+    "kana": "いただきます。",
+    "romaji": "itadakimasu.",
+    "arti": {
+      "id": "Selamat makan!"
+    },
+    "catatan": {
+      "id": "diucapkan sebelum minum dan makan makanan"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "ごちそうさま［でした］。",
+    "kana": "ごちそうさま［でした］。",
+    "romaji": "gochisousama[deshita].",
+    "arti": {
+      "id": "Terima kasih atas hidangannya."
+    },
+    "catatan": {
+      "id": "diucapkan setelah makan dan minum"
+    }
+  },
+  {
+    "bab": 7,
+    "display": "スペイン",
+    "kana": "スペイン",
+    "romaji": "supein",
+    "arti": {
+      "id": "Spanyol"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "ハンサム［な］",
+    "kana": "ハンサム［な］",
+    "romaji": "hansamu [na]",
+    "arti": {
+      "id": "tampan, gagah, ganteng"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "きれい［な］",
+    "kana": "きれい［な］",
+    "romaji": "kirei [na]",
+    "arti": {
+      "id": "cantik, bersih"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{静|しず}か［な］",
+    "kana": "しずか［な］",
+    "romaji": "shizuka [na]",
+    "arti": {
+      "id": "sunyi, tenang"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "にぎやか［な］",
+    "kana": "にぎやか［な］",
+    "romaji": "nigiyaka [na]",
+    "arti": {
+      "id": "ramai"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{有名|ゆうめい}［な］",
+    "kana": "ゆうめい［な］",
+    "romaji": "yuumei [na]",
+    "arti": {
+      "id": "terkenal"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{親切|しんせつ}［な］",
+    "kana": "しんせつ［な］",
+    "romaji": "shinsetsu [na]",
+    "arti": {
+      "id": "baik hati"
+    },
+    "catatan": {
+      "id": "tidak digunakan untuk keluarga sendiri"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{元気|げんき}［な］",
+    "kana": "げんき［な］",
+    "romaji": "genki [na]",
+    "arti": {
+      "id": "sehat walafiat"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{暇|ひま}［な］",
+    "kana": "ひま［な］",
+    "romaji": "hima [na]",
+    "arti": {
+      "id": "senggang"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{便利|べんり}［な］",
+    "kana": "べんり［な］",
+    "romaji": "benri [na]",
+    "arti": {
+      "id": "praktis"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "すてき［な］",
+    "kana": "すてき［な］",
+    "romaji": "suteki [na]",
+    "arti": {
+      "id": "bagus"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{大|おお}きい",
+    "kana": "おおきい",
+    "romaji": "ookii",
+    "arti": {
+      "id": "besar"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{小|ちい}さい",
+    "kana": "ちいさい",
+    "romaji": "chiisai",
+    "arti": {
+      "id": "kecil"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{新|あたら}しい",
+    "kana": "あたらしい",
+    "romaji": "atarashii",
+    "arti": {
+      "id": "baru"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{古|ふる}い",
+    "kana": "ふるい",
+    "romaji": "furui",
+    "arti": {
+      "id": "lama, tua"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "いい（よい）",
+    "kana": "いい（よい）",
+    "romaji": "ii (yoi)",
+    "arti": {
+      "id": "baik, bagus"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{悪|わる}い",
+    "kana": "わるい",
+    "romaji": "warui",
+    "arti": {
+      "id": "buruk, jelek"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{暑|あつ}い、{熱|あつ}い",
+    "kana": "あつい",
+    "romaji": "atsui",
+    "arti": {
+      "id": "panas"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{寒|さむ}い",
+    "kana": "さむい",
+    "romaji": "samui",
+    "arti": {
+      "id": "dingin"
+    },
+    "catatan": {
+      "id": "mengungkapkan tentang suhu udara"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{冷|つめ}たい",
+    "kana": "つめたい",
+    "romaji": "tsumetai",
+    "arti": {
+      "id": "dingin"
+    },
+    "catatan": {
+      "id": "mengungkapkan tentang rasa benda"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{難|むずか}しい",
+    "kana": "むずかしい",
+    "romaji": "muzukashii",
+    "arti": {
+      "id": "sulit, susah"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{易|やさ}しい",
+    "kana": "やさしい",
+    "romaji": "yasashii",
+    "arti": {
+      "id": "mudah, gampang"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{高|たか}い",
+    "kana": "たかい",
+    "romaji": "takai",
+    "arti": {
+      "id": "mahal, tinggi"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{安|やす}い",
+    "kana": "やすい",
+    "romaji": "yasui",
+    "arti": {
+      "id": "murah"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{低|ひく}い",
+    "kana": "ひくい",
+    "romaji": "hikui",
+    "arti": {
+      "id": "rendah"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "おもしろい",
+    "kana": "おもしろい",
+    "romaji": "omoshiroi",
+    "arti": {
+      "id": "menarik"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "おいしい",
+    "kana": "おいしい",
+    "romaji": "oishii",
+    "arti": {
+      "id": "enak"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{忙|いそが}しい",
+    "kana": "いそがしい",
+    "romaji": "isogashii",
+    "arti": {
+      "id": "sibuk"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{楽|たの}しい",
+    "kana": "たのしい",
+    "romaji": "tanoshii",
+    "arti": {
+      "id": "senang"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{白|しろ}い",
+    "kana": "しろい",
+    "romaji": "shiroi",
+    "arti": {
+      "id": "putih"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{黒|くろ}い",
+    "kana": "くろい",
+    "romaji": "kuroi",
+    "arti": {
+      "id": "hitam"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{赤|あか}い",
+    "kana": "あかい",
+    "romaji": "akai",
+    "arti": {
+      "id": "merah"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{青|あお}い",
+    "kana": "あおい",
+    "romaji": "aoi",
+    "arti": {
+      "id": "biru"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{桜|さくら}",
+    "kana": "さくら",
+    "romaji": "sakura",
+    "arti": {
+      "id": "Sakura"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{山|やま}",
+    "kana": "やま",
+    "romaji": "yama",
+    "arti": {
+      "id": "gunung"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{町|まち}",
+    "kana": "まち",
+    "romaji": "machi",
+    "arti": {
+      "id": "kota"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{食|た}べ{物|もの}",
+    "kana": "たべもの",
+    "romaji": "tabemono",
+    "arti": {
+      "id": "makanan"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{所|ところ}",
+    "kana": "ところ",
+    "romaji": "tokoro",
+    "arti": {
+      "id": "tempat"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{寮|りょう}",
+    "kana": "りょう",
+    "romaji": "ryou",
+    "arti": {
+      "id": "asrama"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "レストラン",
+    "kana": "レストラン",
+    "romaji": "resutoran",
+    "arti": {
+      "id": "restoran"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{生活|せいかつ}",
+    "kana": "せいかつ",
+    "romaji": "seikatsu",
+    "arti": {
+      "id": "kehidupan"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "［お］{仕事|しごと}",
+    "kana": "［お］しごと",
+    "romaji": "[o]shigoto",
+    "arti": {
+      "id": "pekerjaan"
+    },
+    "catatan": {
+      "id": "～を します: bekerja"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "どう",
+    "kana": "どう",
+    "romaji": "dou",
+    "arti": {
+      "id": "bagaimana"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "どんな ～",
+    "kana": "どんな ～",
+    "romaji": "donna ~",
+    "arti": {
+      "id": "yang bagaimana ～"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "とても",
+    "kana": "とても",
+    "romaji": "totemo",
+    "arti": {
+      "id": "sangat, ～ sekali"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "あまり",
+    "kana": "あまり",
+    "romaji": "amari",
+    "arti": {
+      "id": "kurang begitu ～, tidak begitu ～"
+    },
+    "catatan": {
+      "id": "diikuti dengan kalimat negatif"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "そして",
+    "kana": "そして",
+    "romaji": "soshite",
+    "arti": {
+      "id": "kemudian, dan"
+    },
+    "catatan": {
+      "id": "digunakan untuk menyambung kalimat"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "～が、～",
+    "kana": "～が、～",
+    "romaji": "~ga, ~",
+    "arti": {
+      "id": "～, tetapi ～"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "お{元気|げんき}ですか。",
+    "kana": "おげんきですか。",
+    "romaji": "ogenki desu ka.",
+    "arti": {
+      "id": "Apa kabar?"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "そうですね。",
+    "kana": "そうですね。",
+    "romaji": "sou desu ne.",
+    "arti": {
+      "id": "Bagaimana ya?"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "［～、］もう {一杯|いっぱい} いかがですか。",
+    "kana": "［～、］もう いっぱい いかがですか。",
+    "romaji": "[~,] mou ippai ikaga desu ka.",
+    "arti": {
+      "id": "Mau tambah [～] secangkir lagi?"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "［いいえ、］けっこうです。",
+    "kana": "［いいえ、］けっこうです。",
+    "romaji": "[iie,] kekkou desu.",
+    "arti": {
+      "id": "[Tidak,] terima kasih, saya sudah cukup."
+    }
+  },
+  {
+    "bab": 8,
+    "display": "もう ～です［ね］。",
+    "kana": "もう ～です［ね］。",
+    "romaji": "mou ~desu [ne].",
+    "arti": {
+      "id": "Sudah ～ [ya]."
+    }
+  },
+  {
+    "bab": 8,
+    "display": "そろそろ {失礼|しつれい}します。",
+    "kana": "そろそろ しつれいします。",
+    "romaji": "sorosoro shitsurei shimasu.",
+    "arti": {
+      "id": "Maaf, saya mau pamit dulu."
+    }
+  },
+  {
+    "bab": 8,
+    "display": "いいえ。",
+    "kana": "いいえ。",
+    "romaji": "iie.",
+    "arti": {
+      "id": "Sama-sama."
+    }
+  },
+  {
+    "bab": 8,
+    "display": "また いらっしゃって ください。",
+    "kana": "また いらっしゃって ください。",
+    "romaji": "mata irasshatte kudasai.",
+    "arti": {
+      "id": "Silakan datang lagi."
+    }
+  },
+  {
+    "bab": 8,
+    "display": "シャンハイ",
+    "kana": "シャンハイ",
+    "romaji": "shanhai",
+    "arti": {
+      "id": "Shanghai"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{金閣寺|きんかくじ}",
+    "kana": "きんかくじ",
+    "romaji": "kinkakuji",
+    "arti": {
+      "id": "kuil Kinkakuji"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{奈良公園|ならこうえん}",
+    "kana": "ならこうえん",
+    "romaji": "narakouen",
+    "arti": {
+      "id": "taman Nara"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "{富士山|ふじさん}",
+    "kana": "ふじさん",
+    "romaji": "fujisan",
+    "arti": {
+      "id": "gunung Fuji"
+    },
+    "catatan": {
+      "id": "gunung yang tertinggi di Jepang"
+    }
+  },
+  {
+    "bab": 8,
+    "display": "「{七人|しちにん}の{侍|さむらい}」",
+    "kana": "しちにんのさむらい",
+    "romaji": "shichinin no samurai",
+    "arti": {
+      "id": "Tujuh orang Samurai"
+    },
+    "catatan": {
+      "id": "film lama oleh Akira Kurosawa"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "わかります",
+    "kana": "わかります",
+    "romaji": "wakarimasu",
+    "arti": {
+      "id": "mengerti"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "あります",
+    "kana": "あります",
+    "romaji": "arimasu",
+    "arti": {
+      "id": "ada, mempunyai"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{好|す}き［な］",
+    "kana": "すき［な］",
+    "romaji": "suki [na]",
+    "arti": {
+      "id": "suka, gemar"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{嫌|きら}い［な］",
+    "kana": "きらい［な］",
+    "romaji": "kirai [na]",
+    "arti": {
+      "id": "tidak suka"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{上手|じょうず}［な］",
+    "kana": "じょうず［な］",
+    "romaji": "jouzu [na]",
+    "arti": {
+      "id": "pandai, pintar"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{下手|へた}［な］",
+    "kana": "へた［な］",
+    "romaji": "heta [na]",
+    "arti": {
+      "id": "tidak pandai, tidak pintar"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{飲|の}み{物|もの}",
+    "kana": "のみもの",
+    "romaji": "nomimono",
+    "arti": {
+      "id": "minuman"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{料理|りょうり}",
+    "kana": "りょうり",
+    "romaji": "ryouri",
+    "arti": {
+      "id": "masakan"
+    },
+    "catatan": {
+      "id": "～を します: memasak"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "スポーツ",
+    "kana": "スポーツ",
+    "romaji": "supootsu",
+    "arti": {
+      "id": "olahraga"
+    },
+    "catatan": {
+      "id": "～を します: berolahraga"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{野球|やきゅう}",
+    "kana": "やきゅう",
+    "romaji": "yakyuu",
+    "arti": {
+      "id": "baseball"
+    },
+    "catatan": {
+      "id": "～を します: bermain baseball"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "ダンス",
+    "kana": "ダンス",
+    "romaji": "dansu",
+    "arti": {
+      "id": "dansa"
+    },
+    "catatan": {
+      "id": "～を します: berdansa"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{旅行|りょこう}",
+    "kana": "りょこう",
+    "romaji": "ryokou",
+    "arti": {
+      "id": "tamasya"
+    },
+    "catatan": {
+      "id": "～を します: melakukan perjalanan"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{音楽|おんがく}",
+    "kana": "おんがく",
+    "romaji": "ongaku",
+    "arti": {
+      "id": "musik"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{歌|うた}",
+    "kana": "うた",
+    "romaji": "uta",
+    "arti": {
+      "id": "lagu"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "クラシック",
+    "kana": "クラシック",
+    "romaji": "kurashikku",
+    "arti": {
+      "id": "klasik"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "ジャズ",
+    "kana": "ジャズ",
+    "romaji": "jazu",
+    "arti": {
+      "id": "jaz"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "コンサート",
+    "kana": "コンサート",
+    "romaji": "konsaato",
+    "arti": {
+      "id": "konser"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "カラオケ",
+    "kana": "カラオケ",
+    "romaji": "karaoke",
+    "arti": {
+      "id": "karaoke"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{歌舞伎|かぶき}",
+    "kana": "かぶき",
+    "romaji": "kabuki",
+    "arti": {
+      "id": "Kabuki"
+    },
+    "catatan": {
+      "id": "salah satu drama tradisional Jepang"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{絵|え}",
+    "kana": "え",
+    "romaji": "e",
+    "arti": {
+      "id": "gambar"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{字|じ}",
+    "kana": "じ",
+    "romaji": "ji",
+    "arti": {
+      "id": "huruf"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{漢字|かんじ}",
+    "kana": "かんじ",
+    "romaji": "kanji",
+    "arti": {
+      "id": "Kanji"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "ひらがな",
+    "kana": "ひらがな",
+    "romaji": "hiragana",
+    "arti": {
+      "id": "Hiragana"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "かたかな",
+    "kana": "かたかな",
+    "romaji": "katakana",
+    "arti": {
+      "id": "Katakana"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "ローマ{字|じ}",
+    "kana": "ローマじ",
+    "romaji": "roomaji",
+    "arti": {
+      "id": "huruf latin"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{細|こま}かい お{金|かね}",
+    "kana": "こまかい おかね",
+    "romaji": "komakai okane",
+    "arti": {
+      "id": "uang kecil, receh"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "チケット",
+    "kana": "チケット",
+    "romaji": "chiketto",
+    "arti": {
+      "id": "tiket"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{時間|じかん}",
+    "kana": "じかん",
+    "romaji": "jikan",
+    "arti": {
+      "id": "jam, waktu"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{用事|ようじ}",
+    "kana": "ようじ",
+    "romaji": "youji",
+    "arti": {
+      "id": "urusan"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{約束|やくそく}",
+    "kana": "やくそく",
+    "romaji": "yakusoku",
+    "arti": {
+      "id": "janji"
+    },
+    "catatan": {
+      "id": "～［を］します: membuat janji"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "アルバイト",
+    "kana": "アルバイト",
+    "romaji": "arubaito",
+    "arti": {
+      "id": "kerja paruh waktu"
+    },
+    "catatan": {
+      "id": "～を します: bekerja paruh waktu"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "ご{主人|しゅじん}",
+    "kana": "ごしゅじん",
+    "romaji": "goshujin",
+    "arti": {
+      "id": "suami"
+    },
+    "catatan": {
+      "id": "digunakan untuk menyebutkan suami orang lain"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{夫|おっと}／{主人|しゅじん}",
+    "kana": "おっと／しゅじん",
+    "romaji": "otto / shujin",
+    "arti": {
+      "id": "suami"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{奥|おく}さん",
+    "kana": "おくさん",
+    "romaji": "okusan",
+    "arti": {
+      "id": "istri"
+    },
+    "catatan": {
+      "id": "digunakan untuk menyebutkan istri orang lain"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{妻|つま}／{家内|かない}",
+    "kana": "つま／かない",
+    "romaji": "tsuma / kanai",
+    "arti": {
+      "id": "istri"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{子|こ}ども",
+    "kana": "こども",
+    "romaji": "kodomo",
+    "arti": {
+      "id": "anak"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "よく",
+    "kana": "よく",
+    "romaji": "yoku",
+    "arti": {
+      "id": "dengan baik"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "だいたい",
+    "kana": "だいたい",
+    "romaji": "daitai",
+    "arti": {
+      "id": "kira-kira"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "たくさん",
+    "kana": "たくさん",
+    "romaji": "takusan",
+    "arti": {
+      "id": "banyak"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{少|すこ}し",
+    "kana": "すこし",
+    "romaji": "sukoshi",
+    "arti": {
+      "id": "sedikit"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{全然|ぜんぜん}",
+    "kana": "ぜんぜん",
+    "romaji": "zenzen",
+    "arti": {
+      "id": "sama sekali"
+    },
+    "catatan": {
+      "id": "diikuti kalimat negatif"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{早|はや}く、{速|はや}く",
+    "kana": "はやく",
+    "romaji": "hayaku",
+    "arti": {
+      "id": "dengan cepat"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "～から",
+    "kana": "～から",
+    "romaji": "~kara",
+    "arti": {
+      "id": "karena ～, sebab ～"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "どうして",
+    "kana": "どうして",
+    "romaji": "doushite",
+    "arti": {
+      "id": "kenapa"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{貸|か}して ください。",
+    "kana": "かして ください。",
+    "romaji": "kashite kudasai.",
+    "arti": {
+      "id": "Tolong pinjamkan."
+    }
+  },
+  {
+    "bab": 9,
+    "display": "いいですよ。",
+    "kana": "いいですよ。",
+    "romaji": "ii desu yo.",
+    "arti": {
+      "id": "Boleh."
+    }
+  },
+  {
+    "bab": 9,
+    "display": "{残念|ざんねん}です［が］",
+    "kana": "ざんねんです［が］",
+    "romaji": "zannen desu [ga]",
+    "arti": {
+      "id": "sayang sekali"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "ああ",
+    "kana": "ああ",
+    "romaji": "aa",
+    "arti": {
+      "id": "ah, oh"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "いっしょに いかがですか。",
+    "kana": "いっしょに いかがですか。",
+    "romaji": "issho ni ikaga desu ka.",
+    "arti": {
+      "id": "Bagaimana kalau bersama-sama?"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "［～は］ちょっと……。",
+    "kana": "［～は］ちょっと……。",
+    "romaji": "[~wa] chotto...",
+    "arti": {
+      "id": "Maaf ya, saya tidak bisa [～]."
+    },
+    "catatan": {
+      "id": "ungkapan untuk menolak ajakan orang secara tidak langsung"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "だめですか。",
+    "kana": "だめですか。",
+    "romaji": "dame desu ka.",
+    "arti": {
+      "id": "Tidak bisa ya?/Tidak boleh ya?"
+    }
+  },
+  {
+    "bab": 9,
+    "display": "また {今度|こんど} お{願|ねが}いします。",
+    "kana": "また こんど おねがいします。",
+    "romaji": "mata kondo onegaishimasu.",
+    "arti": {
+      "id": "Maaf, lain kali saja."
+    },
+    "catatan": {
+      "id": "ungkapan untuk menolak ajakan orang secara tidak langsung dengan menjaga perasaan lawan bicara"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "あります",
+    "kana": "あります",
+    "romaji": "arimasu",
+    "arti": {
+      "id": "ada"
+    },
+    "catatan": {
+      "id": "digunakan untuk benda mati"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "います",
+    "kana": "います",
+    "romaji": "imasu",
+    "arti": {
+      "id": "ada"
+    },
+    "catatan": {
+      "id": "digunakan untuk makhluk hidup"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "いろいろ［な］",
+    "kana": "いろいろ［な］",
+    "romaji": "iroiro [na]",
+    "arti": {
+      "id": "berbagai"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{男|おとこ}の {人|ひと}",
+    "kana": "おとこの ひと",
+    "romaji": "otoko no hito",
+    "arti": {
+      "id": "orang laki-laki"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{女|おんな}の {人|ひと}",
+    "kana": "おんなの ひと",
+    "romaji": "onna no hito",
+    "arti": {
+      "id": "orang perempuan"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{男|おとこ}の {子|こ}",
+    "kana": "おとこの こ",
+    "romaji": "otoko no ko",
+    "arti": {
+      "id": "anak laki-laki"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{女|おんな}の {子|こ}",
+    "kana": "おんなの こ",
+    "romaji": "onna no ko",
+    "arti": {
+      "id": "anak perempuan"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{犬|いぬ}",
+    "kana": "いぬ",
+    "romaji": "inu",
+    "arti": {
+      "id": "anjing"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{猫|ねこ}",
+    "kana": "ねこ",
+    "romaji": "neko",
+    "arti": {
+      "id": "kucing"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "パンダ",
+    "kana": "パンダ",
+    "romaji": "panda",
+    "arti": {
+      "id": "panda"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{象|ぞう}",
+    "kana": "ぞう",
+    "romaji": "zou",
+    "arti": {
+      "id": "gajah"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{木|き}",
+    "kana": "き",
+    "romaji": "ki",
+    "arti": {
+      "id": "pohon"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{物|もの}",
+    "kana": "もの",
+    "romaji": "mono",
+    "arti": {
+      "id": "barang"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{電池|でんち}",
+    "kana": "でんち",
+    "romaji": "denchi",
+    "arti": {
+      "id": "baterai"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{箱|はこ}",
+    "kana": "はこ",
+    "romaji": "hako",
+    "arti": {
+      "id": "kotak"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "スイッチ",
+    "kana": "スイッチ",
+    "romaji": "suitchi",
+    "arti": {
+      "id": "tombol, sakelar"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{冷蔵庫|れいぞうこ}",
+    "kana": "れいぞうこ",
+    "romaji": "reizouko",
+    "arti": {
+      "id": "kulkas, lemari es"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "テーブル",
+    "kana": "テーブル",
+    "romaji": "teeburu",
+    "arti": {
+      "id": "meja makan"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "ベッド",
+    "kana": "ベッド",
+    "romaji": "beddo",
+    "arti": {
+      "id": "tempat tidur"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{棚|たな}",
+    "kana": "たな",
+    "romaji": "tana",
+    "arti": {
+      "id": "lemari"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "ドア",
+    "kana": "ドア",
+    "romaji": "doa",
+    "arti": {
+      "id": "pintu"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{窓|まど}",
+    "kana": "まど",
+    "romaji": "mado",
+    "arti": {
+      "id": "jendela"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "ポスト",
+    "kana": "ポスト",
+    "romaji": "posuto",
+    "arti": {
+      "id": "kotak surat"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "ビル",
+    "kana": "ビル",
+    "romaji": "biru",
+    "arti": {
+      "id": "gedung"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "ATM",
+    "kana": "ATM",
+    "romaji": "ATM",
+    "arti": {
+      "id": "ATM, Anjungan Tunai Mandiri"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "コンビニ",
+    "kana": "コンビニ",
+    "romaji": "konbini",
+    "arti": {
+      "id": "toko 24 jam"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{公園|こうえん}",
+    "kana": "こうえん",
+    "romaji": "kouen",
+    "arti": {
+      "id": "taman"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{喫茶店|きっさてん}",
+    "kana": "きっさてん",
+    "romaji": "kissaten",
+    "arti": {
+      "id": "coffee shop"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "～{屋|や}",
+    "kana": "～や",
+    "romaji": "~ya",
+    "arti": {
+      "id": "toko ～"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{乗|の}り{場|ば}",
+    "kana": "のりば",
+    "romaji": "noriba",
+    "arti": {
+      "id": "tempat naik"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{県|けん}",
+    "kana": "けん",
+    "romaji": "ken",
+    "arti": {
+      "id": "prefektur"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{上|うえ}",
+    "kana": "うえ",
+    "romaji": "ue",
+    "arti": {
+      "id": "atas"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{下|した}",
+    "kana": "した",
+    "romaji": "shita",
+    "arti": {
+      "id": "bawah"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{前|まえ}",
+    "kana": "まえ",
+    "romaji": "mae",
+    "arti": {
+      "id": "depan, muka"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "うしろ",
+    "kana": "うしろ",
+    "romaji": "ushiro",
+    "arti": {
+      "id": "belakang"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{右|みぎ}",
+    "kana": "みぎ",
+    "romaji": "migi",
+    "arti": {
+      "id": "kanan"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{左|ひだり}",
+    "kana": "ひだり",
+    "romaji": "hidari",
+    "arti": {
+      "id": "kiri"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{中|なか}",
+    "kana": "なか",
+    "romaji": "naka",
+    "arti": {
+      "id": "dalam"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{外|そと}",
+    "kana": "そと",
+    "romaji": "soto",
+    "arti": {
+      "id": "luar"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{隣|となり}",
+    "kana": "となり",
+    "romaji": "tonari",
+    "arti": {
+      "id": "sebelah"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{近|ちか}く",
+    "kana": "ちかく",
+    "romaji": "chikaku",
+    "arti": {
+      "id": "dekat"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{間|あいだ}",
+    "kana": "あいだ",
+    "romaji": "aida",
+    "arti": {
+      "id": "antara"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "～や ～［など］",
+    "kana": "～や ～［など］",
+    "romaji": "~ya ~ [nado]",
+    "arti": {
+      "id": "～ dan ～ [dan lain-lain]"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "［どうも］すみません。",
+    "kana": "［どうも］すみません。",
+    "romaji": "[doumo] sumimasen.",
+    "arti": {
+      "id": "Terima kasih [banyak]."
+    }
+  },
+  {
+    "bab": 10,
+    "display": "ナンプラー",
+    "kana": "ナンプラー",
+    "romaji": "nanpuraa",
+    "arti": {
+      "id": "kecap ikan"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "コーナー",
+    "kana": "コーナー",
+    "romaji": "koonaa",
+    "arti": {
+      "id": "tempat/bagian penjualan"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "いちばん {下|した}",
+    "kana": "いちばん した",
+    "romaji": "ichiban shita",
+    "arti": {
+      "id": "paling bawah"
+    }
+  },
+  {
+    "bab": 10,
+    "display": "{東京|とうきょう}ディズニーランド",
+    "kana": "とうきょうディズニーランド",
+    "romaji": "toukyou dizuniirando",
+    "arti": {
+      "id": "Tokyo Disneyland"
+    }
+  }
+]

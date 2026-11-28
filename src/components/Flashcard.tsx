@@ -1,8 +1,15 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { Fragment, useCallback, useEffect, useRef, useState } from "react";
 import type { KanaCard } from "../data/kana";
+import { parseRuby, stripRuby, type VocabCard } from "../data/vocab";
+
+export type DeckCard = KanaCard | VocabCard;
+
+function isVocabCard(card: DeckCard): card is VocabCard {
+  return "display" in card;
+}
 
 interface FlashcardProps {
-  card: KanaCard;
+  card: DeckCard;
   onNext: () => void;
 }
 
@@ -66,15 +73,16 @@ export function Flashcard({ card, onNext }: FlashcardProps) {
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
-      const inHeaderControl = e.target instanceof Element && e.target.closest("header") !== null;
+      const inControl =
+        e.target instanceof Element && e.target.closest("header, [data-chapter-picker]") !== null;
 
-      if (e.code === "Space" && !inHeaderControl) {
+      if (e.code === "Space" && !inControl) {
         e.preventDefault();
         if (exitDir === 0) setFlipped((f) => !f);
-      } else if (e.key === "ArrowRight") {
+      } else if (e.key === "ArrowRight" && !inControl) {
         e.preventDefault();
         triggerSwipeNext(1);
-      } else if (e.key === "ArrowLeft") {
+      } else if (e.key === "ArrowLeft" && !inControl) {
         e.preventDefault();
         triggerSwipeNext(-1);
       }
@@ -159,6 +167,29 @@ export function Flashcard({ card, onNext }: FlashcardProps) {
   const rotation = offsetX * 0.032;
   const opacity = exitDir !== 0 ? 0 : Math.max(0.35, 1 - Math.abs(dragX) / 380);
 
+  const vocab = isVocabCard(card) ? card : null;
+  const plainVocab = vocab ? stripRuby(vocab.display) : "";
+  const ariaLabel = vocab
+    ? flipped
+      ? `${vocab.arti.id}, ${vocab.romaji}`
+      : plainVocab
+    : flipped
+      ? `${card.kana}, romaji ${card.romaji}`
+      : card.kana;
+
+  const vocabSizeClass =
+    plainVocab.length <= 3
+      ? "is-xl"
+      : plainVocab.length <= 6
+        ? "is-lg"
+        : plainVocab.length <= 11
+          ? "is-md"
+          : "is-sm";
+
+  const meaningText = vocab?.arti.id ?? "";
+  const meaningSizeClass =
+    meaningText.length <= 14 ? "is-lg" : meaningText.length <= 28 ? "is-md" : "is-sm";
+
   return (
     <div
       key={card.id}
@@ -170,7 +201,7 @@ export function Flashcard({ card, onNext }: FlashcardProps) {
       role="button"
       tabIndex={0}
       aria-pressed={flipped}
-      aria-label={flipped ? `${card.kana}, romaji ${card.romaji}` : card.kana}
+      aria-label={ariaLabel}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={(e) => finishGesture(e, false)}
@@ -184,18 +215,41 @@ export function Flashcard({ card, onNext }: FlashcardProps) {
     >
       <div className={`card-inner${flipped ? " is-flipped" : ""}`}>
         <div className="card-face card-front" aria-hidden={flipped}>
-          <span className={`card-glyph${card.kana.length > 1 ? " is-combo" : ""}`} lang="ja">
-            {card.kana}
-          </span>
+          {vocab ? (
+            <span className={`card-vocab ${vocabSizeClass}`} lang="ja">
+              {parseRuby(vocab.display).map((seg, i) =>
+                seg.type === "ruby" ? (
+                  <ruby key={i}>
+                    {seg.base}
+                    <rt>{seg.rt}</rt>
+                  </ruby>
+                ) : (
+                  <Fragment key={i}>{seg.text}</Fragment>
+                )
+              )}
+            </span>
+          ) : (
+            <span className={`card-glyph${card.kana.length > 1 ? " is-combo" : ""}`} lang="ja">
+              {card.kana}
+            </span>
+          )}
         </div>
 
         <div className="card-face card-back" aria-hidden={!flipped}>
-          <div className="card-answer">
-            <span className="card-romaji">{card.romaji}</span>
-            <span className="card-ref" lang="ja">
-              {card.kana}
-            </span>
-          </div>
+          {vocab ? (
+            <div className="card-answer card-answer-vocab">
+              <span className={`card-meaning ${meaningSizeClass}`}>{meaningText}</span>
+              <span className="card-vocab-romaji">{vocab.romaji}</span>
+              {vocab.catatan?.id && <span className="card-note">{vocab.catatan.id}</span>}
+            </div>
+          ) : (
+            <div className="card-answer">
+              <span className="card-romaji">{card.romaji}</span>
+              <span className="card-ref" lang="ja">
+                {card.kana}
+              </span>
+            </div>
+          )}
         </div>
       </div>
     </div>

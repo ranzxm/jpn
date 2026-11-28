@@ -67,12 +67,12 @@ export function getPool(filter: ScriptFilter): readonly KanaCard[] {
   return ALL_KANA;
 }
 
-export function createShuffledDeck(
-  filter: ScriptFilter,
+export function shuffleDeck<T extends { id: string }>(
+  pool: readonly T[],
   avoidFirstId?: string,
   rng: () => number = Math.random
-): KanaCard[] {
-  const deck = [...getPool(filter)];
+): T[] {
+  const deck = [...pool];
   for (let i = deck.length - 1; i > 0; i--) {
     const j = Math.floor(rng() * (i + 1));
     [deck[i], deck[j]] = [deck[j], deck[i]];
@@ -83,4 +83,12 @@ export function createShuffledDeck(
     [deck[0], deck[swapIdx]] = [deck[swapIdx], deck[0]];
   }
   return deck;
+}
+
+export function createShuffledDeck(
+  filter: ScriptFilter,
+  avoidFirstId?: string,
+  rng: () => number = Math.random
+): KanaCard[] {
+  return shuffleDeck(getPool(filter), avoidFirstId, rng);
 }

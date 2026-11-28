@@ -1,6 +1,6 @@
 # Learning Japanese.
 
-Ultra-minimalist Japanese **Hiragana** and **Katakana** flashcard web app built with React, TypeScript, Vite, and Bun.
+Ultra-minimalist Japanese **Hiragana**, **Katakana**, and **Vocabulary** flashcard web app built with React, TypeScript, Vite, and Bun.
 
 **Live:** https://ranzxm.github.io/jpn/
 
@@ -12,7 +12,8 @@ Ultra-minimalist Japanese **Hiragana** and **Katakana** flashcard web app built 
   - 46 Gojūon (`あ–ん` / `ア–ン`)
   - 25 Dakuten & Handakuten (`が–ぽ` / `ガ–ポ`)
   - 33 Yōon combinations (`きゃ–ぴょ` / `キャ–ピョ`)
-- **Script Filter** — switch between Hiragana (`あ`), Katakana (`ア`), or all 208 cards, shuffled via Fisher–Yates without repeating the boundary card on reshuffle.
+- **Vocabulary by Chapter (506 cards, Bab 1–10)** — kanji rendered with native HTML `<ruby>` furigana, meaning, romaji, optional usage notes, and multi-select chapter popover filter (`語`).
+- **Mode Filter** — switch between Hiragana (`あ`), Katakana (`ア`), all 208 kana, or Vocabulary (`語`), shuffled via Fisher–Yates without repeating the boundary card on reshuffle.
 - **Zero-Clutter UI** — centered flashcard only, monochrome Zinc dark/light theme, no counters or distractions.
 - **Ambient Kana Tapes** — procedural 3-layer monochrome kana-tape side background rendered on a single cached-sprite `<canvas>`, skipping the center column and pausing automatically when hidden, on narrow viewports (`<= 640px`), or with `prefers-reduced-motion: reduce`.
 
@@ -52,10 +53,14 @@ bun test         # Run unit tests
 ├── src/
 │   ├── components/
 │   │   ├── AmbientTapes.tsx  # Canvas ambient kana-tape background
+│   │   ├── ChapterPicker.tsx # Multi-select vocabulary chapter popover
 │   │   └── Flashcard.tsx     # 3D flip & pointer swipe flashcard
 │   ├── data/
-│   │   ├── kana.ts           # 208-card dataset & deck shuffler
-│   │   └── kana.test.ts      # Dataset & shuffle unit tests
+│   │   ├── kana.ts           # 208-card kana dataset & deck shuffler
+│   │   ├── kana.test.ts      # Kana dataset & shuffle unit tests
+│   │   ├── vocab.json        # 506-card vocabulary dataset (Bab 1–10)
+│   │   ├── vocab.ts          # Ruby parser, chapter pool & deck builder
+│   │   └── vocab.test.ts     # Vocab, furigana & chapter unit tests
 │   ├── App.tsx
 │   ├── index.css
 │   └── main.tsx
